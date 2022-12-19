@@ -1,0 +1,47 @@
+:root {
+  --font-type: Futura, Arial, sans-serif;
+  --main-black: #000000;
+  --main-white: #ffffff;
+  --dark-blue: #2149fe;
+  --very-light-grey: #cdcdcd;
+}
+body {
+  margin: 2em;
+}
+
+nav {
+  font-family: var(--font-type);
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.header {
+  color: var(--main-black);
+  margin-left: 2.5rem;
+}
+
+.login-btn {
+  background-color: var(--dark-blue);
+  color: var(--main-white);
+  font-family: var(--font-type);
+  font-size: 12px;
+  padding-left: 1rem;
+  max-width: 10rem;
+  margin-left: 1rem;
+  border-color: var(--dark-blue);
+}
+
+img {
+  margin-right: 0.3rem;
+}
+
+.navbar-logo {
+  max-width: 12rem;
+  margin-top: -1rem;
+}
+
+.language-seperator {
+  color: var(--very-light-grey);
+  font-size: x-large;
+  margin-top: 0.2rem;
+}
