@@ -4,6 +4,12 @@
   --main-white: #ffffff;
   --dark-blue: #2149fe;
   --very-light-grey: #cdcdcd;
+  --light-blue: #81cffa;
+  --main-grey: #cdcdcd;
+  --light-grey: #f4f4f4;
+  --medium-grey: #a6a6a6;
+  --main-green: #8cc27b;
+  --main-orange: #d95214;
 }
 body {
   margin: 2em;
@@ -44,4 +50,77 @@ img {
   color: var(--very-light-grey);
   font-size: x-large;
   margin-top: 0.2rem;
+}
+
+.main-pic-class > img {
+  position: relative;
+  width: 100%;
+}
+.main-pic-class > h1 {
+  position: absolute;
+  max-width: 80%;
+  top: 17.31rem;
+  left: 10rem;
+  font-weight: 800;
+  color: var(--main-white);
+  line-height: 5rem;
+  font-size: 3.75rem;
+}
+
+.main-pic-class > .mini-title {
+  position: absolute;
+  top: 15rem;
+  left: 10rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.main-pic-class > .info {
+  position: absolute;
+  max-width: 40%;
+  font-weight: 500;
+  font-size: 1.25rem;
+  top: 33.44rem;
+  left: 10rem;
+  line-height: 35px;
+}
+
+.main-pic-class > .get-started {
+  position: absolute;
+  top: 47.6rem;
+  left: 10rem;
+  height: 7%;
+  width: 10%;
+  background-color: var(--dark-blue);
+  color: var(--main-white);
+  border-radius: 0.2rem;
+  border: none;
+  font-weight: 500;
+}
+
+.main-pic-class > .apple-store {
+  position: absolute;
+  height: 6%;
+  width: 9%;
+  border: none;
+  left: 10rem;
+  top: 58.26rem;
+  background-color: transparent;
+}
+.main-pic-class > .play-store {
+  position: absolute;
+  height: 6%;
+  width: 9%;
+  border: none;
+  left: 24rem;
+  top: 58.26rem;
+  background-color: transparent;
+}
+.main-pic-class > .app-gallery {
+  position: absolute;
+  height: 6%;
+  width: 9%;
+  border: none;
+  left: 38rem;
+  top: 58.26rem;
+  background-color: transparent;
 }
