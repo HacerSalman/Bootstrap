@@ -13,12 +13,12 @@
 }
 body {
   margin: 2em;
+  font-family: var(--font-type);
 }
 
 nav {
-  font-family: var(--font-type);
   font-size: 20px;
-  line-height: 34px;
+  line-height: 2.125rem;
 }
 
 .header {
@@ -29,10 +29,9 @@ nav {
 .login-btn {
   background-color: var(--dark-blue);
   color: var(--main-white);
-  font-family: var(--font-type);
   font-size: 12px;
   padding-left: 1rem;
-  max-width: 10rem;
+  max-width: 100%;
   margin-left: 1rem;
   border-color: var(--dark-blue);
 }
@@ -42,7 +41,7 @@ img {
 }
 
 .navbar-logo {
-  max-width: 12rem;
+  max-width: 8rem;
   margin-top: -1rem;
 }
 
@@ -52,75 +51,72 @@ img {
   margin-top: 0.2rem;
 }
 
-.main-pic-class > img {
+.main-pic-class {
+  background-image: url(images/main-pic.svg);
+  background-size: cover;
+  background-position: top;
   position: relative;
-  width: 100%;
+  height: 100vh;
 }
-.main-pic-class > h1 {
-  position: absolute;
+
+ h1 {
   max-width: 80%;
-  top: 17.31rem;
-  left: 10rem;
   font-weight: 800;
   color: var(--main-white);
   line-height: 5rem;
   font-size: 3.75rem;
 }
 
-.main-pic-class > .mini-title {
-  position: absolute;
-  top: 15rem;
-  left: 10rem;
+.mini-title {
   font-weight: 700;
   font-size: 1.25rem;
+  padding-top: 3rem;
 }
-.main-pic-class > .info {
-  position: absolute;
+
+.info {
   max-width: 40%;
   font-weight: 500;
   font-size: 1.25rem;
-  top: 33.44rem;
-  left: 10rem;
-  line-height: 35px;
+  line-height: 2.188rem;
+  padding-top: 3rem;
+  padding-bottom: 10rem;
 }
 
-.main-pic-class > .get-started {
-  position: absolute;
-  top: 47.6rem;
-  left: 10rem;
-  height: 7%;
-  width: 10%;
+ .get-started {
+  max-height: 6%;
+  width: 9%;
   background-color: var(--dark-blue);
   color: var(--main-white);
   border-radius: 0.2rem;
   border: none;
   font-weight: 500;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 10rem;
+  margin-bottom: 20rem;
 }
 
-.main-pic-class > .apple-store {
-  position: absolute;
+ .apple-store {
   height: 6%;
   width: 9%;
   border: none;
-  left: 10rem;
-  top: 58.26rem;
   background-color: transparent;
+  padding-top: 3rem;
+  margin-top: 10rem;
 }
-.main-pic-class > .play-store {
-  position: absolute;
+.play-store {
   height: 6%;
   width: 9%;
   border: none;
-  left: 24rem;
-  top: 58.26rem;
   background-color: transparent;
+  padding-top: 3rem;
+  margin-top: 10rem;
 }
-.main-pic-class > .app-gallery {
-  position: absolute;
+.app-gallery {
   height: 6%;
   width: 9%;
   border: none;
-  left: 38rem;
-  top: 58.26rem;
   background-color: transparent;
+  padding-top: 3rem;
+  margin-top: 10rem;
 }
