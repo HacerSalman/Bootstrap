@@ -21,6 +21,8 @@ nav {
   line-height: 2.125rem;
 }
 
+
+/* Header */
 .header {
   color: var(--main-black);
   margin-left: 2.5rem;
@@ -47,6 +49,8 @@ nav {
   margin-top: 0.2rem;
 }
 
+
+/* Main picture */
 .main-pic-class {
   background-image: url(images/main-pic.svg);
   position: relative;
@@ -55,7 +59,7 @@ nav {
   background-position: center;
 }
 
- h1 {
+.everybody-volunteer-title {
   max-width: 80%;
   font-weight: 800;
   color: var(--main-white);
@@ -88,7 +92,7 @@ nav {
   padding: 1.5rem;
 }
 
-a:hover{
+.main-pic-class > a:hover{
   text-decoration: none;
   color: var(--main-white);
 }
@@ -96,15 +100,48 @@ a:hover{
  .apple-store {
   background-color: transparent;
   padding-top: 3rem;
-  margin-top: 10rem;
 }
+
 .play-store {
   background-color: transparent;
   padding-top: 3rem;
-  margin-top: 10rem;
 }
+
 .app-gallery {
   background-color: transparent;
   padding-top: 3rem;
-  margin-top: 10rem;
+}
+
+
+/*Media Queries*/ 
+
+@media screen and (max-width: 1007px) and (min-width: 641px) {
+
+  .everybody-volunteer-title {
+  max-width: 50%;
+  font-weight: 500;
+  color: var(--main-white);
+  line-height: 2rem;
+  font-size: 1.5rem;
+  }
+
+  .info {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+
+  .everybody-volunteer-title {
+  max-width: 40%;
+  font-weight: 400;
+  color: var(--main-white);
+  line-height: 2rem;
+  font-size: 1rem;
+  }
+
+  .info {
+    display: none;
+  }
 }
