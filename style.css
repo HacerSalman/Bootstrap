@@ -136,16 +136,16 @@ nav {
   border:0.56rem var(--main-green) solid;
 }
 
+.green-rectangle-title {
+  display: flex;
+  padding-bottom: 2rem;
+  justify-content: flex-start;
+  color: var(--dark-blue);
+}
+
 .workflow-image{
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.workflow-green-rectangle{
-  border-radius:0.25rem;
-  margin-right:1rem;
-  border:0.5rem var(--main-green) solid;
-  height: 3rem;
 }
 
 .left-blue-border{
@@ -164,12 +164,6 @@ nav {
   margin-left:8rem;
 }
 
-.features-title {
-  display: flex;
-  padding-bottom: 2rem;
-  justify-content: flex-start;
-}
-
 .features-title > img {
   max-height: 3rem;
 }
@@ -177,15 +171,15 @@ nav {
 .features-row {
   max-width: 100%;
 }
+
 .features-row > img {
   max-width: 35%;
 }
+
 .features-row > h5 {
   font-weight: 800;
 }
-.features-row > p {
-  margin-top: 1.2rem;
-}
+
 
 .features-second-container {
   border: var(--main-white);
@@ -221,10 +215,13 @@ nav {
   color: var(--main-green);
 }
 
+.border-left-green{
+  border-left: 6px #53b453 solid;
+}
 
 /*Media Queries*/ 
 
-@media screen and (max-width: 1007px) and (min-width: 641px) {
+@media screen and (max-width: 1024px) and (min-width: 641px) {
 
   .everybody-volunteer-title {
   max-width: 50%;
