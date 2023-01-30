@@ -301,4 +301,12 @@ margin-left:3%;
   .info {
     display: none;
   }
+
+  .menu-background  {
+    display:none;
+  }
+
+  .application-background {
+    display: none;
+  }
 }
