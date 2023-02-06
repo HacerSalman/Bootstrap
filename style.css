@@ -135,6 +135,7 @@ nav {
   border-radius: 0.4rem;
   background-color: var(--white);
   padding-bottom: 4rem;
+  padding-top: 1rem;
 }
 
 .features-title {
@@ -150,6 +151,8 @@ nav {
 .features-row > img {
   max-height: 30%;
   max-width: 30%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 
 .features-row-title {
@@ -159,6 +162,7 @@ nav {
 
 .features-container-items {
   margin-top: -10%;
+  padding-top: 1rem;
 }
 
 .features-row-rectangle {
@@ -177,6 +181,9 @@ nav {
   max-width: 20%;
 }
 
+.features-row-content {
+  padding-top: 1rem;
+}
 /*Workflow*/
 
 .workflow-title {
@@ -199,28 +206,27 @@ nav {
 }
 
 /* Application */
-.application-background{
+.application-background{ /*change background size*/
   background-color: var(--light-grey);
-  margin-top: 14.06rem;
-  margin-left: 20%;
+  margin-top: 4rem;
   border-radius: 0.6rem;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 55rem;
+  position: absolute;
+  right:0;
 }
 
 .application-title {
   display: flex;
-  padding-bottom: 8rem;
+  margin-top: 4rem;
   justify-content: flex-start;
   font-size: 4rem;
   font-weight: 700;
   color: var(--dark-blue);
-  margin-top: -10%;
-  margin-left: -20%;
 }
 
 .application-image {
-  margin-left: -60%;
+width:100%;
 }
 
 .application-mobile-image-background {
@@ -241,10 +247,6 @@ nav {
   margin-block-end: 1.33em;
 }
 
-.application-info-tab {
-  margin-left: -50%;
-}
-
 .application-desktop {
   display: flex;
 }
@@ -252,28 +254,31 @@ nav {
 .application-orange-title {
   color: var(--orange);
   font-weight: 800;
+  margin-top:2%;
 }
 
-.application-text{
+.application-content{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .application-text > h5{
-margin-left:3%;
 font-weight: 800;
+padding-top: 0.5rem;
+}
+
+.application-text {
+  padding-left: 2rem;
 }
 
 .application-text > p {
-margin-top:-5%;
-margin-left:3%;
+ padding-top: 1rem;
 }
 
 .vertical-blue-line{
   border-left: 0.5rem var(--blue) solid;
   height: 4.25rem;
   margin-top: 0.9rem;
+  border-radius: 4.5px;
 }
 
 /*Media Queries*/
