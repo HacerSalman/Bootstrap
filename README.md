@@ -1,2 +1,2 @@
-# Bootstrap Sample Design Code
-This code generates a sample template using Bootstrap Navbar, Bootstrap Grid.
+# Html and Css with Bootstrap
+This code generates a single page application with Bootstrap Navbar and Bootstrap Grid.
