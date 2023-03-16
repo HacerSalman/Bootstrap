@@ -9,7 +9,7 @@
   --light-grey: #f4f4f4;
   --medium-grey: #a6a6a6;
   --main-green: #8cc27b;
-  --main-orange: #D95214;
+  --main-orange: #d95214;
   --border-green: #53b453;
   --oval-background: #41485a;
 }
@@ -208,7 +208,8 @@ nav {
 }
 
 /* Application */
-.application-background{ /*change background size*/
+.application-background {
+  /*change background size*/
   background-color: var(--light-grey);
   margin-top: 4rem;
   margin-left: 10%;
@@ -227,10 +228,10 @@ nav {
 }
 
 .application-image {
-width:100%;
-position: absolute;
-left:-40%;
-margin-top: 2rem;
+  width: 100%;
+  position: absolute;
+  left: -40%;
+  margin-top: 2rem;
 }
 
 .application-mobile-image-background {
@@ -240,8 +241,8 @@ margin-top: 2rem;
   display: flex;
 }
 
-.application-small-image { 
-  border-radius: 12px;  
+.application-small-image {
+  border-radius: 12px;
   justify-content: flex-start;
 }
 
@@ -258,16 +259,16 @@ margin-top: 2rem;
 .application-orange-title {
   color: var(--orange);
   font-weight: 800;
-  margin-top:2%;
+  margin-top: 2%;
 }
 
-.application-content{
+.application-content {
   display: flex;
 }
 
-.application-text > h5{
-font-weight: 800;
-padding-top: 0.5rem;
+.application-text > h5 {
+  font-weight: 800;
+  padding-top: 0.5rem;
 }
 
 .application-text {
@@ -275,10 +276,10 @@ padding-top: 0.5rem;
 }
 
 .application-text > p {
- padding-top: 1rem;
+  padding-top: 1rem;
 }
 
-.vertical-blue-line{
+.vertical-blue-line {
   border-left: 0.5rem var(--blue) solid;
   height: 4.25rem;
   margin-top: 0.9rem;
@@ -310,11 +311,9 @@ padding-top: 0.5rem;
   .info {
     display: none;
   }
-
-  .menu-background  {
-    display:none;
+  .application-title {
+    display: none;
   }
-
   .application-background {
     display: none;
   }
