@@ -134,7 +134,7 @@ nav {
   line-height: 2rem;
   border-radius: 0.4rem;
   background-color: var(--white);
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   padding-top: 1rem;
 }
 
@@ -158,6 +158,7 @@ nav {
 .features-row-title {
   font-weight: 700;
   margin-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .features-container-items {
@@ -183,6 +184,7 @@ nav {
 
 .features-row-content {
   padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 /*Workflow*/
 
@@ -209,11 +211,10 @@ nav {
 .application-background{ /*change background size*/
   background-color: var(--light-grey);
   margin-top: 4rem;
+  margin-left: 10%;
   border-radius: 0.6rem;
-  width: 70%;
+  width: 90%;
   height: 55rem;
-  position: absolute;
-  right:0;
 }
 
 .application-title {
@@ -227,6 +228,9 @@ nav {
 
 .application-image {
 width:100%;
+position: absolute;
+left:-40%;
+margin-top: 2rem;
 }
 
 .application-mobile-image-background {
