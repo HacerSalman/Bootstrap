@@ -215,7 +215,6 @@ nav {
   margin-left: 10%;
   border-radius: 0.6rem;
   width: 90%;
-  height: 55rem;
 }
 
 .application-title {
@@ -229,8 +228,7 @@ nav {
 
 .application-image {
   width: 100%;
-  position: absolute;
-  left: -40%;
+
   margin-top: 2rem;
 }
 
